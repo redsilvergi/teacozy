@@ -66,3 +66,31 @@ header li {
     width: 100%
 ;
 }
+
+.tea_of_the_month {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.pic-box {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.image img {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+}
